@@ -82,3 +82,4 @@ obj-$(CONFIG_CABLE_DETECT_8930) += cable_detect_8930.o
 obj-y += time_helper.o
 obj-y += state_helper.o
 obj-$(CONFIG_FPR_SPI)	+=fpr/
+obj-y += mako_hotplug_control.o
