@@ -887,7 +887,7 @@ static void __init bus_init(const struct l2_level *l2_level)
 
 #ifdef CONFIG_USERSPACE_VOLTAGE_CONTROL
 
-#define USERCONTROL_MIN_VDD		 750
+#define USERCONTROL_MIN_VDD		 700
 #define USERCONTROL_MAX_VDD		1350
 #define NUM_FREQS			23
 
